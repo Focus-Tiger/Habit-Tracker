@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-brand-50: #fff5ea;
+  --color-brand-100: #ffe0c7;
+  --color-brand-500: #ff9327;
+  --color-brand-700: #c2560f;
+  --color-brand-900: #8b3a0e;
+  --color-beige-100: #f6ece2;
+  --color-beige-500: #c9a580;
+  --color-beige-900: #5a4632;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --radius: 0.625rem;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-beige-100);
+  color: var(--color-brand-900);
+}
